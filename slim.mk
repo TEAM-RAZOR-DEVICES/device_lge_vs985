@@ -1,12 +1,13 @@
 $(call inherit-product, device/lge/vs985/full_vs985.mk)
+$(call inherit-product, vendor/slim/config/common_full_phone.mk)
+$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Boot animation
+TARGET_SCREEN_WIDTH := 1440
+TARGET_SCREEN_HEIGHT := 2560
 
-# Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
-
-PRODUCT_NAME := cm_vs985
+PRODUCT_RELEASE_NAME := LG G3
+PRODUCT_NAME := slim_vs985
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
