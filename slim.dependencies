@@ -2,16 +2,16 @@
   {
     "repository":  "SlimRoms/device_lge_g3-common",
     "target_path": "device/lge/g3-common",
-    "branch":      "lp5.0"
+    "branch":      "lp5.1"
   },
   {
     "repository":  "SlimRoms/kernel_lge_g3",
     "target_path": "kernel/lge/g3",
-    "branch":      "lp5.0"
+    "branch":      "lp5.1"
   },
   {
     "repository":  "SlimRoms/device_qcom_common",
     "target_path": "device/qcom/common",
-    "branch":      "lp5.0"
+    "branch":      "lp5.1"
   }
 ]
