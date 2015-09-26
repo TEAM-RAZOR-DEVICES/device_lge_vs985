@@ -10,8 +10,8 @@
     "branch":      "lp5.1"
   },
   {
-    "repository":  "SlimRoms/device_qcom_common",
-    "target_path": "device/qcom/common",
+    "repository":  "TEAM-RAZOR-DEVICES/proprietary_vendor_lge",
+    "target_path": "vendor/lge",
     "branch":      "lp5.1"
   }
 ]
